@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>co.com.viveres.susy.microserviceoauth</groupId>
-	<artifactId>microservice-oauth</artifactId>
+	<artifactId>tds-microservice-oauth2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>microservice-oauth</name>
+	<name>tds-microservice-oauth2</name>
 	<description>microservice-oauth</description>
 	<properties>
 		<java.version>11</java.version>
