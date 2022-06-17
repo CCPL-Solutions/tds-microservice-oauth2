@@ -1,4 +1,4 @@
-package co.edu.ierdminayticha.sgd.oauth.exception;
+package co.com.viveres.susy.microserviceoauth.exception;
 
 public class GeneralException extends RuntimeException {
 

@@ -1,4 +1,4 @@
-package co.edu.ierdminayticha.sgd.oauth.dto;
+package co.com.viveres.susy.microserviceoauth.dto;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package co.edu.ierdminayticha.sgd.oauth.service;
+package co.com.viveres.susy.microserviceoauth.service;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -13,9 +13,9 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import co.edu.ierdminayticha.sgd.oauth.clients.IUserFeignClient;
-import co.edu.ierdminayticha.sgd.oauth.dto.RoleDto;
-import co.edu.ierdminayticha.sgd.oauth.dto.UserDto;
+import co.com.viveres.susy.microserviceoauth.clients.IUserFeignClient;
+import co.com.viveres.susy.microserviceoauth.dto.RoleDto;
+import co.com.viveres.susy.microserviceoauth.dto.UserDto;
 
 @Service
 public class UserServiceImpl implements IUserService, UserDetailsService {

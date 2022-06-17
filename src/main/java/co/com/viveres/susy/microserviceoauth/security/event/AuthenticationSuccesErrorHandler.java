@@ -1,4 +1,4 @@
-package co.edu.ierdminayticha.sgd.oauth.security.event;
+package co.com.viveres.susy.microserviceoauth.security.event;
 
 import org.springframework.security.authentication.AuthenticationEventPublisher;
 import org.springframework.security.core.Authentication;

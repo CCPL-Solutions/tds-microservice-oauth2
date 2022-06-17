@@ -1,4 +1,4 @@
-package co.edu.ierdminayticha.sgd.oauth.util;
+package co.com.viveres.susy.microserviceoauth.util;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -18,8 +18,8 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import co.edu.ierdminayticha.sgd.oauth.dto.ErrorDto;
-import co.edu.ierdminayticha.sgd.oauth.exception.GeneralException;
+import co.com.viveres.susy.microserviceoauth.dto.ErrorDto;
+import co.com.viveres.susy.microserviceoauth.exception.GeneralException;
 
 @RestControllerAdvice
 public class HandlerExceptionsController extends ResponseEntityExceptionHandler {

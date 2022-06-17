@@ -1,11 +1,11 @@
-package co.edu.ierdminayticha.sgd.oauth.clients;
+package co.com.viveres.susy.microserviceoauth.clients;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import co.edu.ierdminayticha.sgd.oauth.dto.UserDto;
+import co.com.viveres.susy.microserviceoauth.dto.UserDto;
 
 @FeignClient(name = "microservice-user/v1/users")
 public interface IUserFeignClient {

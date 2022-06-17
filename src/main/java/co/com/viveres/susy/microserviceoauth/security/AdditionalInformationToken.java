@@ -1,4 +1,4 @@
-package co.edu.ierdminayticha.sgd.oauth.security;
+package co.com.viveres.susy.microserviceoauth.security;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -10,8 +10,8 @@ import org.springframework.security.oauth2.provider.OAuth2Authentication;
 import org.springframework.security.oauth2.provider.token.TokenEnhancer;
 import org.springframework.stereotype.Component;
 
-import co.edu.ierdminayticha.sgd.oauth.dto.UserDto;
-import co.edu.ierdminayticha.sgd.oauth.service.IUserService;
+import co.com.viveres.susy.microserviceoauth.dto.UserDto;
+import co.com.viveres.susy.microserviceoauth.service.IUserService;
 
 @Component
 public class AdditionalInformationToken implements TokenEnhancer {

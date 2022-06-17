@@ -1,4 +1,4 @@
-package co.edu.ierdminayticha.sgd.oauth.security;
+package co.com.viveres.susy.microserviceoauth.security;
 
 import java.util.Arrays;
 

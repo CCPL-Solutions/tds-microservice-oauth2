@@ -1,4 +1,4 @@
-package co.edu.ierdminayticha.sgd.oauth;
+package co.com.viveres.susy.microserviceoauth;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
