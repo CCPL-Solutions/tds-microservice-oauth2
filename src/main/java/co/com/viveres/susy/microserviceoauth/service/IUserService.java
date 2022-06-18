@@ -6,4 +6,8 @@ public interface IUserService {
 
 	UserDto findByUsername(String username);
 
+	UserDto findById(Long id);
+
+	void update(Long id, UserDto user);
+
 }

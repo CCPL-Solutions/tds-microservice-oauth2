@@ -35,6 +35,8 @@ public class UserDto implements Serializable {
 	@NotBlank
 	@Email
 	private String email;
+	
+	private Integer attempts;
 
 	@Valid
 	private List<RoleDto> roles;
